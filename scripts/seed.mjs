@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import mongoose from 'mongoose';
+const envfile=path.join(process.cwd(),'.env.local');if(fs.existsSync(envfile)){for(const line of fs.readFileSync(envfile,'utf8').split(/\r?\n/)){const m=line.match(/^([A-Z_]+)=(.*)$/);if(m&&!process.env[m[1]])process.env[m[1]]=m[2];}}
+if(!process.env.MONGODB_URI){console.error('Falta MONGODB_URI en .env.local');process.exit(1)}
+const products=JSON.parse(fs.readFileSync(path.join(process.cwd(),'data/products.json'),'utf8'));
+await mongoose.connect(process.env.MONGODB_URI,{serverSelectionTimeoutMS:10000});const collection=mongoose.connection.db.collection('pecoproducts');let inserted=0;for(const p of products){const r=await collection.updateOne({id:p.id},{$setOnInsert:{...p,createdAt:new Date(),updatedAt:new Date()}},{upsert:true});if(r.upsertedCount)inserted++;}console.log(`Importados: ${inserted}. Ya existentes: ${products.length-inserted}. Total catálogo inicial: ${products.length}.`);await mongoose.disconnect();

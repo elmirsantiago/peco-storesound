@@ -1,0 +1,1 @@
+import { Cart } from '@/components/Cart';export default function CartPage(){return <main className="container page-space"><span className="eyebrow">TU COMPRA</span><h1 className="page-title">Carrito de pedidos</h1><Cart/></main>}
