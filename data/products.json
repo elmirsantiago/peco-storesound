@@ -523,7 +523,7 @@
     "name": "AURICULARES INALÁMBRICO RK06 PARA CASCO",
     "description": "Sistema de intercomunicación Bluetooth para casco de moto, ideal para mantenerte conectado mientras conducís. Ofrece audio claro, micrófono con reducción de ruido, controles accesibles y fácil instalación. Perfecto para llamadas, música y comunicación entre riders con total comodidad y seguridad.",
     "category": "Audio y sonido",
-    "image": "/productos/WhatsApp Image 2026-11-13 at 14.05.25.jpeg",
+    "image": "/productos/WhatsApp Image 2026-11-13 at 14.05.25 (1).jpeg",
     "imageCandidates": [
       "/productos/WhatsApp Image 2026-11-13 at 14.05.25 (1).jpeg",
       "/productos/WhatsApp Image 2026-11-13 at 14.05.25 (2).jpeg",
@@ -763,7 +763,7 @@
     "name": "MAQUINA DE AFEITAR 3 CABEZALES MÓVILES",
     "description": "La afeitadora Oryx 4D es un dispositivo de cuidado personal diseñado con cuchillas de acero inoxidable. Cuenta con un sistema de carga USB, ofrece 60 minutos de autonomía y posee cabezales lavables para facilitar su limpieza.",
     "category": "Belleza y cuidado",
-    "image": "/productos/WhatsApp Image 2026-11-13 at 14.05.32 (1).jpeg",
+    "image": "/productos/WhatsApp Image 2026-11-13 at 14.05.32.jpeg",
     "imageCandidates": [
       "/productos/WhatsApp Image 2026-11-13 at 14.05.32 (1).jpeg",
       "/productos/WhatsApp Image 2026-11-13 at 14.05.32 (2).jpeg",
@@ -785,7 +785,7 @@
     "name": "MAQUINA AFEITADORA ELÉCTRICA \"SHAVER\" CON 3 CABEZALES FIJOS.",
     "description": "",
     "category": "Belleza y cuidado",
-    "image": "/productos/WhatsApp Image 2026-11-13 at 14.05.32.jpeg",
+    "image": "/productos/WhatsApp Image 2026-11-13 at 14.05.32 (1).jpeg",
     "imageCandidates": [
       "/productos/WhatsApp Image 2026-11-13 at 14.05.32 (1).jpeg",
       "/productos/WhatsApp Image 2026-11-13 at 14.05.32 (2).jpeg",
@@ -1739,9 +1739,9 @@
     "id": "80",
     "slug": "cabezal-de-carga-45w-samsung-80",
     "name": "CABEZAL DE CARGA 45W SAMSUNG",
-    "description": "Es un cargador Samsung PD Super Fast Charger de 45W. Este dispositivo cuenta con tecnología de carga ultrarrápida y sistemas de seguridad inteligente.",
+    "description": "Cargador Samsung Super Fast Charging de 45W, ideal para una carga rápida y eficiente. Incluye cable USB-C a USB-C y ofrece máxima practicidad para tus dispositivos compatibles.",
     "category": "Celulares y accesorios",
-    "image": "/productos/WhatsApp Image 2026-11-13 at 14.06.07.jpeg",
+    "image": "/productos/peco-cargador-samsung-45w.webp",
     "imageCandidates": [
       "/productos/WhatsApp Image 2026-11-13 at 14.06.07 (1).jpeg",
       "/productos/WhatsApp Image 2026-11-13 at 14.06.07 (2).jpeg",
@@ -1750,10 +1750,10 @@
     ],
     "imageNeedsReview": false,
     "prices": {
-      "1": 8300,
-      "5": 7500,
-      "10": 6700,
-      "20": 6400
+      "1": 9500,
+      "5": 8500,
+      "10": 7600,
+      "20": 7200
     },
     "active": true,
     "stock": null
@@ -3423,6 +3423,24 @@
       "5": 18900,
       "10": 17600,
       "20": 16800
+    },
+    "active": true,
+    "stock": null
+  },
+  {
+    "id": "156",
+    "slug": "depiladora-nasal-156",
+    "name": "DEPILADORA NASAL",
+    "description": "Depiladora nasal eléctrica Blawless, ideal para eliminar el vello de la nariz de forma rápida, precisa y cómoda. Diseño compacto, fácil de usar y funciona con 1 pila AA.",
+    "category": "Belleza y cuidado",
+    "image": "/productos/peco-depiladora-nasal.webp",
+    "imageCandidates": [],
+    "imageNeedsReview": false,
+    "prices": {
+      "1": 10000,
+      "5": 9000,
+      "10": 8100,
+      "20": 7300
     },
     "active": true,
     "stock": null
